@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "carolineyuandeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "3317-MainThread",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "dcc9f732f337d116",
+        "parentUid" : "a30bcb51da7583d181ee7164489e22f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612328040026,
+          "stop" : 1612328040027,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "36b8edc8233c3a17",
+        "parentUid" : "a30bcb51da7583d181ee7164489e22f1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1612328040067,
+          "stop" : 1612328040067,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_failure",
+        "uid" : "1c90dd8e28f34227",
+        "parentUid" : "a30bcb51da7583d181ee7164489e22f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612328040030,
+          "stop" : 1612328040030,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_broken",
+        "uid" : "de117e767100becb",
+        "parentUid" : "a30bcb51da7583d181ee7164489e22f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612328040069,
+          "stop" : 1612328040069,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a30bcb51da7583d181ee7164489e22f1"
+    } ],
+    "uid" : "eb84059bd110e5ef9d005c3cacfbf100"
+  } ]
+}
